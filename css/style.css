@@ -1,27 +1,31 @@
 body {
 
-    background: rgba(2, 0, 0, 0.87);
+    background: rgba(231, 150, 233, 0.87);
     margin: 0;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
 
 
 }
+
+
+
 
 
 .header::after {
     content: "";
     height: 100vh;
     width: 100%;
-    background-image: url(../img/RSKECO.jpeg);
-    background-size: cover;
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
     transition: all 1000ms;
-
+    
 }
 
 .header:hover::after {
@@ -31,11 +35,14 @@ body {
 
 }
 
+.diplomado {
+    background-size: 50%;
+}
 
 
 .header:hover .header-content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 
 }
 
@@ -43,32 +50,31 @@ body {
 
 .header-content {
     position: absolute;
-    z-index: 1;
-    top: 5%;
-    left: 50%;
-    margin-top: 105px;
-    margin-left: -145px;
+    top: -4%;
+    left: 10%;
+    margin-top: 30px;
+    margin-left: -180px;
     text-align: center;
-    width: 300px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     color: #000;
-    transition: all 1000ms;
+
 }
 
 
 .header-content .logo {
-    height: 200px;
-    width: 200px;
-
-
+    height: 216px;
+    width: 384px;
+    background-position: left;
+    
 
 }
 
 
 .title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 3rem;
-    color: rgb(231, 127, 8);
+    color: rgb(9, 8, 8);
 
 }
 
@@ -83,8 +89,30 @@ body {
 
 }
 
+.diplo {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    height: 900px;
+
+}
+
+.curso {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.juego {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 
 
+
+}
 
 .container {
 
@@ -169,8 +197,8 @@ footer p {
 
     .header-content .logo {
 
-        height: 120px;
-        width: 120px;
+        height: 300px;
+        width: 300px;
     }
 
     .header-content .text {
