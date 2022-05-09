@@ -61,3 +61,34 @@
 }
 
 
+@media(max-width: 560px) {
+    #sidebar {
+        width: 150px;
+        height: 500px;
+        
+    }
+
+    #sidebar ul li {
+
+    width: 90px;
+    height: 80px;
+    color: rgba(245, 242, 242, 0.9);
+    text-align: left;
+    padding: 5px 5px;
+    z-index: 1;
+    font-family: 'IBM Plex Sans', sans-serif;
+    }
+
+    #sidebar .toggle-btn {
+        position: absolute;
+        left: 194px;
+        top: 20px;
+        cursor: pointer;
+        z-index: 1;
+    
+    }
+
+
+
+
+}
