@@ -91,11 +91,19 @@ body {
 
 .diplo {
     display: block;
-    margin: 0 auto;
-    width: 900px;
-    height: 900px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
 
 }
+
+
+.gugle {
+    width: 1000px;
+    height: 500px;
+}
+
+
 
 .curso {
     display: inline-block;
@@ -185,8 +193,8 @@ footer p {
 
 @media(max-width: 560px) {
     .header::after {
-        width: 360px;
-        height: 360px;
+        width: 370px;
+        height: 370px;
     }
 
 
@@ -197,9 +205,9 @@ footer p {
 
     .diplo {
         display: block;
-        margin: auto;
-        width: 350px;
-        height: 350px;
+        margin-top: 0px;
+        width: 385px;
+        height: 385px;
 
     }
 
@@ -231,7 +239,7 @@ footer p {
 }
 
 
-@media(max-height: 500px) {
+@media(max-height: 550px) {
 
     .header-content .text {
         display: none;
