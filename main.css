@@ -1,3 +1,4 @@
+
 * {
     margin: 2px;
     padding: 1px;
@@ -8,24 +9,29 @@
     width: 210px;
     height: 100%;
     z-index: 1;
-    background: #f4f6f6;
-    opacity: .6;
     left: -200px;
     transition: all 500ms linear;
-
+    text-transform: uppercase;
+    transition: all 500ms ease;
 
 }
 
 #sidebar.active {
     left: 0;
+    
 }
 
-
+.boton {
+    color: rgb(245, 239, 240);
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: .2rem solid rgb(238, 229, 226)
+    
+}
 
 .logo {
     display: block;
     margin: 0 auto;
-
 }
 
 
@@ -45,19 +51,42 @@
     width: 40px;
     text-align: center;
     font-size: 30px;
-    border: 3px solid #000;
+    border: 3px solid rgb(246, 242, 242);
     z-index: 1;
 
 }
 
 #sidebar ul li {
-    color: rgba(245, 242, 242, 0.9);
-    text-align: center;
-    padding: 15px 10px;
+    
+    text-align: right;
+    padding: 10px 10px;
     list-style: none;
-    border-bottom: 3px solid rgba(100, 100, 100, .3);
     z-index: 1;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Alfa Slab One';
+    
 }
 
 
+
+@media(max-width: 560px) {
+    #sidebar {
+        width: 5px;
+        
+    }
+
+    
+    #sidebar ul li {
+        visibility: hidden;
+    }
+
+
+    #sidebar .toggle-btn {
+        position: absolute;
+        left: 194px;
+        top: 0px;
+        cursor: pointer;
+        z-index: 1;
+        visibility: hidden;
+    }
+
+}

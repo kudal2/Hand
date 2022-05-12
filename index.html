@@ -7,27 +7,21 @@
     <title>HANDSHAKING CONSULTING</title>
 <!-- FONT AWESOME -->
 <script src="https://kit.fontawesome.com/b4cd50d212.js" crossorigin="anonymous"></script>
-
-<!-- GOOGLE FONTS -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/9010dd8c7a.js" crossorigin="anonymous"></script>
 <!-- ANIMATE.CSS-->
 <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 <!-- CSS CUSTOM -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=IBM+Plex+Sans:wght@500&family=Pacifico&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 
 <title>Animated Sidebar CSS</title>
 <link rel="stylesheet" href="main.css">
 <!-- PARA LINKEDIN -->
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 
 </head>
 <body>
@@ -43,11 +37,15 @@
 
         <ul class="sidebar">
 
-                <li><a href="#diplomado" class="selected"><h3>Diplomado Activo</h3></a></li>
-                <li><a href="#trabajo" class="selected"><h3>¿Buscas o eres talento independiente?</h3></a></li>
-                <li><a href="#redes" class="selected"><h3>Redes Sociales</h3></a></li>
-                <li><a href="#cursos" class="selected"><h3>Cursos y Talleres</h3></a></li>
-                
+                <li><a href="#diplomado" style="text-decoration: none;"><button class="boton">Diplomado Activo</button></a></li>
+                <li><a href="#trabajo" class="selected" style="text-decoration: none;"><button class="boton">¿Buscas o eres talento independiente?</button></a></li>
+                <li><a href="#redes" class="selected" style="text-decoration: none;"><button class="boton">MEDIA PARTNERS</button></a></li>
+
+                <li><a href="#redes" class="selected" style="text-decoration: none;"><button class="boton">Redes Sociales</button></a></li>
+                <li><a href="#redes" class="selected" style="text-decoration: none;"><button class="boton">Pre-registro Talento</button></a></li>
+
+                <li><a href="#cursos" class="selected" style="text-decoration: none;"><button class="boton">CURSOS Y TALLERES</button></a></li>
+                <li><a href="#poaps" class="selected" style="text-decoration: none;"><button class="boton">POAPS</button></a></li>
 
 
         </ul>
@@ -127,9 +125,18 @@
 
 
 
-<div>
+<div class="containerdos grid-2">
+
     <img src="../img/diplomado.png" id="diplomado" class="diplo">
+    
+    
+    <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxj2f5PAOBF1hqganc0PaRQGMonE0Js8NaJJYHLgut5oA90Q/viewform?embedded=true" class="gogle">Cargando…</iframe>
+    </div>
+    
 </div>
+
+
 
 
     
@@ -143,44 +150,98 @@
 
 
 <section>
-     <img src="../img/trabajo.png" id="trabajo" class="juego">
+     <img src="../img/trabajo.png" id="trabajo" class="trabajo">
 
 
         </section>
 
 
+<section class="boton text-center">
+    <h2>MEDIA PARTNERS</h2>
+    <div class="btn"> 
+        
+        <i class="fa-solid fa-link fa-1x"></i><a href="https://es.beincrypto.com/?s=definiendo+las+defi" target="_blank"><span class="buton" style="text-decoration: none;">BEINCRYPTO</span></a>
+        <i class="fa-solid fa-link fa-1x"></i><a href="https://www.cointexto.com/" target="_blank"><span class="buton" style="text-decoration: none;">COINTEXTO</span></a>
+    <img src="../img/be.png" alt="be" class="be">
+    <div>
+        
+</section>
 
-
     
 
     
     
     
-    <section class="Redes Sociales text-center" id="redes">
-        <h3 class="title">REDES SOCIALES</h3>
-        <h3>Se actualizan al momento</h3>
+    <section class="Redes text-center" id="redes">
+        <h2>REDES SOCIALES</h2>
+
 
     
         <div class="container grid-2">
             <div>
-                <i class="fab fa-instagram fa-5x"></i>
-                <h3>Instagram</h3>
-                <P><iframe width="320" height="440" src="http://instagram.com/p/CdTv4sgriEh/embed" frameborder="0"></iframe></P>
+                <i class="fab fa-instagram fa-2x"></i>
+                
+                <P><iframe src="http://instagram.com/p/CdZMB7RrNc1/embed" class="insta"></iframe></P>
             </div>
 
 
             <div>
-                <i class="fab fa-twitter fa-5x"></i>
-                <h3>Twitter</h3>
+                <i class="fab fa-twitter fa-2x"></i>
+                
                 <P><a class="twitter-timeline" data-lang="es" data-width="400" data-height="400" data-theme="dark" href="https://twitter.com/Handshaking_Es?ref_src=twsrc%5Etfw">Tweets by Handshaking_Es</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></P>
             </div>
-
-            
-                
-        
-
     </section>
 
+
+    <section class="Redes text-center" id="redes">
+        <h2>PRE REGISTRO DE COMUNIDAD Y TALENTO HANDSHAKING</h2>
+        <div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfy-HttKszK7zIMj2IN7t8i_GBifnRWbE2xdKrQraqkOlN6fA/viewform?embedded=true" class="gogle">Cargando…</iframe>
+            </div>
+    </section>
+    
+   
+
+
+
+
+
+
+    <section class="poap text-center" id="poaps">
+        <h2>POAPS</h2>
+        <h1>Algunos eventos que hemos organizado</h1>
+        <div class="container grid-9">
+            <div>
+                <iframe src="https://app.poap.xyz/claim/ckrl4e/embed" class="pop"></iframe>
+            </div>
+
+            <div>
+                <iframe src="https://poap.gallery/event/37012/embed" class="pop"></iframe>
+            </div>
+
+            <div>
+                <iframe src="https://poap.gallery/event/35930/embed" class="pop"></iframe>
+            </div>
+
+            <div>
+                <iframe src="https://poap.gallery/event/36863/embed" class="pop"></iframe>
+            </div>
+
+            <div>
+                <iframe src="https://poap.gallery/event/34421/embed" class="pop"></iframe>
+            </div>
+
+            <div>
+                <iframe src="https://app.poap.xyz/token/4641084/embed" class="pop"></iframe>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
     
 
 

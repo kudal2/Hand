@@ -1,12 +1,10 @@
 body {
 
-    background: rgba(231, 150, 233, 0.87);
+    background: rgba(206, 170, 241, 0.87);
     margin: 0;
-    color: #fff;
+    color: rgb(246, 243, 248);
     font-family: 'IBM Plex Sans', sans-serif;
     
-
-
 }
 
 
@@ -73,7 +71,7 @@ body {
 
 .title {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(9, 8, 8);
 
 }
@@ -91,11 +89,26 @@ body {
 
 .diplo {
     display: block;
-    margin: 0 auto;
-    width: 900px;
-    height: 900px;
+    margin-left: 110px;
+    width: 500px;
+    height: 500px;
 
 }
+
+.gogle {
+    width: 600px;
+}
+
+
+
+
+
+.select {
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
 
 .curso {
     display: inline-block;
@@ -104,14 +117,11 @@ body {
     height: 100%;
 }
 
-.juego {
+.trabajo {
     display: inline-block;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
-
-
-
+    height: 100%
 }
 
 .container {
@@ -127,16 +137,33 @@ body {
 }
 
 .grid-2 {
+
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-
-
-
 }
 
+.be {
 
+    margin: auto;
+    display: block;
+    width: 500px;
+    height: 125px;
+}
 
+.btn a {
+    
+    margin: auto;
+    background: transparent;
+    font-size: 1.6rem;
+    font-display: center;
+    text-decoration: none;
+}
+
+.buton {
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
 .text-center {
 
@@ -156,7 +183,7 @@ body {
 
 .bg-dark {
 
-    background: #2f3542;
+    background: #094cdf;
     color: #fff;
 }
 
@@ -166,6 +193,24 @@ body {
 
 }
 
+
+.insta {
+    width: 400px;
+    height: 500px;
+}
+
+
+.pop {
+    width: 450px;
+    height: 350px;
+}
+
+.grid-9 {
+
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
 
 
 
@@ -185,13 +230,60 @@ footer p {
 
 @media(max-width: 560px) {
     .header::after {
-        height: 50vh;
+        margin-top: -20%;
+        width: 360px;
+        height: 360px;
     }
 
 
     .header-content {
-        top: 5%;
-        margin-top: 5px;
+        top: 0%;
+        margin-top: 0px;
+    }
+
+
+    .btn a {
+        background-color: transparent;
+    }
+
+    .diplo {
+        display: block;
+        margin-top: -23%;
+        width: 360px;
+        height: 360px;
+        margin-left: 1%;
+    }
+
+    .insta {
+        width: 300px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .selected {
+        visibility: hidden;
+        opacity: .8;
+        
+    }
+
+    .gogle {
+        width: 360px;
+    }
+
+
+    .pop {
+        width: 310px;
+        height: 300px;
+    }
+
+    .be {
+
+        margin: auto;
+        display: block;
+        width: 250px;
+        height: 62.5px;
     }
 
 
@@ -201,48 +293,33 @@ footer p {
         width: 300px;
     }
 
-    .header-content .text {
-        font-size: .7rem;
-
-
-
-    }
-
-    .grid-2 {
-
-        grid-template-columns: 1fr;
-    }
-
-
-    .services {
-
-        padding: 3rem 1rem;
-    }
+    
 
     
+
+    .grid-2 {
+        
+        grid-template-columns: 2fr;
+    }
+
+    .grid-9 {
+        
+        grid-template-columns: 2fr;
+    }
+
+    .curso {
+    
+        margin-top: -30%;
+    }
+
+    .fab {
+        opacity: .7;
+    }
+
+    .services {
+        
+        padding: 3rem 1rem;
+    }   
 }
-
-
-@media(max-height: 500px) {
-
-    .header-content .text {
-        display: none;
-        }
-
-
-
-
-        .header-content {
-            top: 0;
-        }
-
-    .header-content .title {
-
-        font-size: 2rem;
-    }    
-
-
-}
-
 
 
