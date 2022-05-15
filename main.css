@@ -6,7 +6,7 @@
 
 #sidebar {
     position: fixed;
-    width: 210px;
+    width: 250px;
     height: 100%;
     z-index: 1;
     left: -200px;
@@ -21,13 +21,7 @@
     
 }
 
-.boton {
-    color: rgb(245, 239, 240);
-    font-size: 1.2rem;
-    background-color: transparent;
-    border: .2rem solid rgb(238, 229, 226)
-    
-}
+
 
 .logo {
     display: block;
@@ -43,7 +37,10 @@
     top: 20px;
     cursor: pointer;
     z-index: 1;
-
+    border-radius: 71px;
+    background: linear-gradient(145deg, #f5ffff, transparent);
+    box-shadow:  7px 7px 18px #99a19f,
+                 -7px -7px 18px transparent;
 }
 
 #sidebar .toggle-btn span {
@@ -51,7 +48,7 @@
     width: 40px;
     text-align: center;
     font-size: 30px;
-    border: 3px solid rgb(246, 242, 242);
+    
     z-index: 1;
 
 }
