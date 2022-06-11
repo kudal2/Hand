@@ -2,7 +2,7 @@ body {
 
     background: rgba(206, 170, 241, 0.87);
     margin: 0;
-    color: rgb(246, 243, 248);
+    color: rgb(22, 3, 35);
     font-family: 'IBM Plex Sans', sans-serif;
     
 }
@@ -32,6 +32,44 @@ body {
 
 
 }
+
+
+.nav{
+    background-color: rgb(182, 127, 201);
+    position: fixed;
+    width: 99%;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    z-index: 1;
+    opacity: .9;
+}
+
+.logo{
+    background-color: rgb(182, 127, 201);
+    margin-left: 100px;
+    
+    
+
+}
+
+.menu{
+    display: flex;
+
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 .diplomado {
     background-size: 50%;
@@ -106,18 +144,7 @@ body {
     height: 500px;
 }
 
-.selected {
 
-
-    color: #fff;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1.3rem;
-    border-radius: 72px;
-background: linear-gradient(145deg, transparent, transparent);
-box-shadow:  7px 7px 18px #f7f9f9,
-             -7px -7px 18px transparent;
-
-}
 
 
 
